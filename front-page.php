@@ -3,13 +3,30 @@
 	<div class="position-relative h-100">
 		<img src="<?php echo get_theme_file_uri('img/header.jpg'); ?>" alt="" class="w-100 h-100 object-fit-cover position-absolute start-50 translate-middle-x" style="min-height: 100vh; min-width: 100vw;">
 		<div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-			<h2 class="fw-bold mb-3 text-shadow display-4" style="font-family: 'Shippori Mincho', serif;">サンプル工務店</h2>
-			<p class="h4 fw-normal text-shadow" style="min-width: 280px;">あなたの理想に寄り添う</p>
+			<h2 class="fw-bold mb-3 text-shadow display-4 animate-fade-in" style="font-family: 'Shippori Mincho', serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">サンプル工務店</h2>
+			<p class="h4 fw-normal text-shadow animate-fade-in" style="min-width: 280px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">あなたの理想に寄り添う</p>
 		</div>
 	</div>
 </section>
 
 <section class="py-5 bg-light">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<h2 class="display-4 fw-bold text-center mb-0" style="font-family: 'Montserrat', sans-serif;">MESSAGE</h2>
+				<div class="text-center mb-1"><div class="d-inline-block" style="width: 30px; height: 5px; background-color: #212529;"></div></div>
+				<p class="text-center text-muted mb-4">メッセージ</p>
+			</div>
+			<div class="col-lg-8 text-center fw-bold fs-5">
+				<p>私たちサンプル工務店は、あなたの理想に寄り添う建築集団です。</p>
+				<p>あなたの夢を叶えるために、私たちは全力で取り組んでいます。</p>
+				<p>ここにサンプルテキストが入ります。ここにサンプルテキストが入ります。ここにサンプルテキストが入ります。ここにサンプルテキストが入ります。ここにサンプルテキストが入ります。ここにサンプルテキストが入ります。</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-5">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
@@ -61,6 +78,78 @@
 		</div>
 	</div>
 </section>
+
+<section class="py-5 bg-light">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<h2 class="display-4 fw-bold text-center mb-0" style="font-family: 'Montserrat', sans-serif;">ABOUT US</h2>
+				<div class="text-center mb-1"><div class="d-inline-block" style="width: 30px; height: 5px; background-color: #212529;"></div></div>
+				<p class="text-center text-muted mb-4">私たちについて</p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-lg-6 mb-lg-0 mb-4">
+				<img src="<?php echo get_theme_file_uri('img/top/aboutus1.jpg'); ?>" alt="About Us" class="w-100 h-100 object-fit-cover rounded shadow">
+			</div>
+			<div class="col-lg-6 mb-lg-0">
+				<div class="ps-lg-4">
+					<h3 class="h2 fw-bold mb-3 border-start border-4 border-dark ps-3">要望が第一</h3>
+					<p class="lead text-muted">
+						お客様の要望を第一に、お客様の理想に寄り添う建築を提案します。<br>
+						サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br><br>
+						サンプルテキストサンプルテキストサンプルテキスト
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-lg-6 order-lg-2 mb-lg-0 mb-4">
+				<img src="<?php echo get_theme_file_uri('img/top/aboutus2.jpg'); ?>" alt="About Us" class="w-100 h-100 object-fit-cover rounded shadow">
+			</div>
+			<div class="col-lg-6 order-lg-1 mb-lg-0">
+				<div class="pe-lg-4">
+					<h3 class="h2 fw-bold mb-3 border-start border-4 border-dark ps-3">ご納得いただける施工</h3>
+					<p class="lead text-muted">
+						何度も打ち合わせを重ね、ご納得いただける施工を行います。<br>
+						サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br><br>
+						サンプルテキストサンプルテキストサンプルテキスト
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-lg-6 mb-lg-0 mb-4">
+				<img src="<?php echo get_theme_file_uri('img/top/aboutus3.jpg'); ?>" alt="About Us" class="w-100 h-100 object-fit-cover rounded shadow">
+			</div>
+			<div class="col-lg-6 mb-lg-0">
+				<div class="ps-lg-4">
+					<h3 class="h2 fw-bold mb-3 border-start border-4 border-dark ps-3">安全な施工を徹底</h3>
+					<p class="lead text-muted">
+						施工時には安全を徹底し、お客様に安心を届けます。<br>
+						サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br><br>
+						サンプルテキストサンプルテキストサンプルテキスト
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="position-relative py-5">
+	<div class="position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 0;">
+		<div class="position-absolute w-100 h-100" style="background: rgba(255, 255, 255, 0.6); z-index: 1;"></div>
+		<img src="<?php echo get_theme_file_uri('img/top/concept.jpg'); ?>" alt="" class="w-100 h-100 object-fit-cover">
+	</div>
+	<div class="container position-relative" style="z-index: 2;">
+		<div class="row justify-content-center text-center py-5">
+			<div class="col-lg-8">
+				<a href="<?php echo home_url('/concept'); ?>" class="btn btn-outline-dark btn-lg px-5">私たちの想い</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <section class="py-5">
 	<div class="container">

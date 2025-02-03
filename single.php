@@ -3,7 +3,7 @@
 <?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
 		<div class="container">
-			<h1 class="fw-bold mb-1"><?php the_title(); ?></h1>
+			<h1 class="fw-bold mb-1 mt-3"><?php the_title(); ?></h1>
 			<div class="small mb-4 text-muted">
 				<?php if (is_singular('post')) : ?>
 					<!-- パンくず -->

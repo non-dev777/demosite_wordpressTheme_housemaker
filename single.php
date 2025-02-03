@@ -27,7 +27,9 @@
 					<?php endif; ?>
 				</div>
 			</div>
-			<?php the_content(); ?>
+			<div class="post-content">
+				<?php the_content(); ?>
+			</div>
 		</div>
 	<?php endwhile; ?>
 <?php endif; ?>

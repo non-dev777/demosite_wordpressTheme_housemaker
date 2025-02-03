@@ -1,0 +1,203 @@
+.post-content {
+  padding-bottom: 2rem;
+}
+
+/* 投稿コンテンツ内の見出しデザイン */
+.post-content h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+  padding: 1rem 0;
+  position: relative;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+.post-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 30%;
+  height: 3px;
+  background: linear-gradient(90deg, #212529 0%, #495057 100%);
+}
+
+.post-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1.2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #212529;
+  line-height: 1.4;
+}
+
+.post-content h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #adb5bd;
+}
+
+.post-content h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.post-content h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 70%;
+  background-color: #212529;
+  border-radius: 2px;
+}
+
+.post-content h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  color: #495057;
+}
+
+/* 投稿コンテンツ内のテキストブロックスタイル */
+.post-content p {
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
+
+.post-content blockquote {
+  background-color: #f8f9fa;
+  border-left: 4px solid #dee2e6;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* フロント・エディター共通のスタイル */
+:root .post-content h2,
+.editor-styles-wrapper h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+  padding: 1rem 0;
+  position: relative;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+:root .post-content h2::after,
+.editor-styles-wrapper h2::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 30%;
+  height: 3px;
+  background: linear-gradient(90deg, #212529 0%, #495057 100%);
+}
+
+:root .post-content h3,
+.editor-styles-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1.2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #212529;
+  line-height: 1.4;
+}
+
+:root .post-content h4,
+.editor-styles-wrapper h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #adb5bd;
+}
+
+:root .post-content h5,
+.editor-styles-wrapper h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+:root .post-content h5::before,
+.editor-styles-wrapper h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 70%;
+  background-color: #212529;
+  border-radius: 2px;
+}
+
+:root .post-content h6,
+.editor-styles-wrapper h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  color: #495057;
+}
+
+:root .post-content p,
+.editor-styles-wrapper p {
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+  font-family: "Shippori Mincho", serif;
+}
+
+:root .post-content blockquote,
+.editor-styles-wrapper blockquote {
+  background-color: #f8f9fa;
+  border-left: 4px solid #dee2e6;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+:root .post-content ul,
+:root .post-content ol,
+.editor-styles-wrapper ul,
+.editor-styles-wrapper ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+:root .post-content li,
+.editor-styles-wrapper li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* エディター専用のスタイル調整 */
+.editor-styles-wrapper {
+  font-family: "Shippori Mincho", serif !important;
+}
+
+.editor-post-title__input {
+  font-family: "Shippori Mincho", serif !important;
+  font-weight: 600 !important;
+}

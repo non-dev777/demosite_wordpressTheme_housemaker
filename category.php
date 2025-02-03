@@ -4,7 +4,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
-				<h2 class="fw-bold mb-4 text-center"><?php single_cat_title(); ?></h2>
+				<h2 class="display-4 fw-bold mb-2 text-center" style="font-family: 'Montserrat', sans-serif;">NEWS</h2>
+				<p class="text-center text-muted mb-4"><?php single_cat_title(); ?></p>
 				<div class="category-nav text-center">
                     <a href="<?php echo home_url('/post'); ?>" class="btn <?php echo is_home() ? 'btn-dark' : 'btn-outline-dark'; ?>">すべて</a>
                     <a href="<?php echo get_category_link(get_category_by_slug('event')->term_id); ?>" class="btn <?php echo is_category('event') ? 'btn-dark' : 'btn-outline-dark'; ?>">イベント</a>

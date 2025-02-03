@@ -4,7 +4,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
-				<h2 class="fw-bold mb-4 text-center">お知らせ</h2>
+				<h2 class="display-4 fw-bold mb-2 text-center" style="font-family: 'Montserrat', sans-serif;">NEWS</h2>
+				<p class="text-center text-muted mb-4">お知らせ</p>
                 
                 <div class="category-nav text-center">
                     <a href="<?php echo home_url('/post'); ?>" class="btn btn-dark">すべて</a>

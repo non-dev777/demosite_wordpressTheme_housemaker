@@ -4,7 +4,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
-				<h2 class="fw-bold mb-4 text-center">会社概要</h2>
+				<h2 class="display-4 fw-bold mb-2 text-center" style="font-family: 'Montserrat', sans-serif;">COMPANY</h2>
+				<p class="text-center text-muted mb-4">会社概要</p>
 				<table class="table table-bordered">
 					<tbody>
 						<tr>

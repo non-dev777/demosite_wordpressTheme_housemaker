@@ -4,7 +4,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
-				<h2 class="fw-bold mb-4 text-center">サービス</h2>
+				<h2 class="display-4 fw-bold mb-2 text-center" style="font-family: 'Montserrat', sans-serif;">SERVICE</h2>
+				<p class="text-center text-muted mb-4">サービス</p>
 			</div>
 			<div class="row g-4">
 				<div class="col-md-6">

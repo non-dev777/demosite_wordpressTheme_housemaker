@@ -77,6 +77,8 @@
 							} else {
 								echo get_post_type_object(get_post_type())->label;
 							}
+						} elseif (is_404()) {
+							echo 'ページが見つかりませんでした';
 						} else {
 							the_title();
 						}

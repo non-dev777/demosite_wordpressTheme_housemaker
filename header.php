@@ -53,14 +53,15 @@
 	<main>
 		<?php if (!is_front_page()) : ?>
 		<section class="position-relative pt-4">
-			<div class="position-relative">
+			<div class="header-image-container">
 				<?php if (has_post_thumbnail() && !is_home() && !is_archive()) : ?>
 					<?php the_post_thumbnail('full', array('class' => 'w-100 object-fit-cover', 'style' => 'height: 300px;')); ?>
 				<?php else : ?>
 					<img src="<?php echo get_theme_file_uri('img/header.jpg'); ?>" alt="" class="w-100 object-fit-cover" style="height: 300px;">
 				<?php endif; ?>
-				<div class="container position-absolute top-50 start-50 translate-middle">
-					<h1 class="text-white fw-bold display-4">
+				<div class="title-container">
+					<h1 class="text-white fw-bold display-4 page-title animate-fade-in">
+						<span>
 						<?php
 						if (is_singular('post')) {
 							echo get_the_category()[0]->name;
@@ -80,6 +81,7 @@
 							the_title();
 						}
 						?>
+						</span>
 					</h1>
 				</div>
 			</div>
